@@ -7,4 +7,4 @@ I think the thing I had probably learned the most from this assignment was how t
 
 https://cwwittor.github.io/hw04-code-quiz/
 
-![image](https://imgur.com/QbyBWpg)
+![image](https://i.imgur.com/QbyBWpg.png)
