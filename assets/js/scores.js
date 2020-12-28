@@ -1,6 +1,5 @@
 // either get scores from localstorage or set to empty array
 var highscores = JSON.parse(localStorage.getItem("highscores")) || [];
-alert(highscores);
 
 // sort highscores by score property in descending order
 highscores.score.sort(function(a, b) {

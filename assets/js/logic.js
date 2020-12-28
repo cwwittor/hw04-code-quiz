@@ -143,8 +143,6 @@ function saveHighscore() {
     // get saved scores from localstorage, or if not any, set to empty array
     if (localStorage.getItem("highscores") ==! []) {
       highscores = localStorage.getItem("highscores");
-      alert(localStorage);
-      alert("hello1"+highscores);
     } else  {
       highscores = [];
     }
@@ -155,10 +153,7 @@ function saveHighscore() {
     };
 
     // save to localstorage
-    //localStorage.push(newScore);
-    //alert(JSON.stringify(newScore));
     localStorage.setItem("highscores", JSON.stringify(newScore));
-    alert(JSON.parse(localStorage.getItem("highscores")));
 
     // redirect to next page
     window.location.href = "highscores.html";
